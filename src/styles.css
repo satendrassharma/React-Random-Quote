@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  margin: 0;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: lightgreen;
+  box-sizing: borde-box;
+  width: 100%;
+  flex-direction: column;
+}
+
+header {
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+#checkbox {
+  font-size: 1.2rem;
+}
+#quote-box {
+  padding: 1.4rem;
+  background: white;
+  border-radius: 5px;
+  font-size: 1.8em;
+  width: 40%;
+}
+@media only screen and (max-width: 600px) {
+  #quote-box {
+    width: 80%;
+  }
+}
+
+.quote-author {
+  text-align: right;
+  margin-bottom: 0.2em;
+}
+
+.button {
+  background: green;
+  margin: 0.1rem;
+  border-radius: 5px;
+  float: left;
+  font-size: 0.8em;
+  color: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 0.4em;
+}
+
+#new-quote {
+  float: right;
+  clear: none;
+  border-radius: 0;
+  border: 0;
+  padding: 0.4em;
+  font-size: 1.1rem;
+  box-shadow: 1px 0px 0px white;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  height: 35px;
+}
+.footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 0.2em;
+}
